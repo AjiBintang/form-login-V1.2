@@ -1,0 +1,119 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #edebeb;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-box {
+  width: 350px;
+  padding: 35px;
+  background-color: rgba(225, 225, 225, 0.1);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(225, 225, 225, 0.5);
+  box-shadow: 0px 0px 15px rgba(225, 225, 225, 0.5);
+  border-radius: 10px;
+}
+
+.login-box .user-box {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.login-box form h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.login-box form .user-box input {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 45px 10px 15px;
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
+  position: relative;
+}
+
+.login-box form .user-box input::placeholder {
+  color: #fff;
+}
+
+.login-box .user-box .icons {
+  width: 17px;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.login-box .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin: -5px 0px 15px 0px;
+}
+
+.login-box .remember-forgot label {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.login-box .remember-forgot a {
+  font-size: 12px;
+  color: #fff;
+  line-height: 15px;
+}
+
+.login-box .remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.login-box form button {
+  width: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  background: #fff;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-box form button:hover {
+  color: white;
+  background-color: #00bfff;
+}
+
+.login-box form p {
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+}
+
+.login-box form p a {
+  color: #fff;
+  font-weight: bold;
+}
